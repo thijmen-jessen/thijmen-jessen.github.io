@@ -64,6 +64,9 @@ a {
     color: darkgreen;
 }
 
-img {
-    height: 30px;
+.profile-picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
