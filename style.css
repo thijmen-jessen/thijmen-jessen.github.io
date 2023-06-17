@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+h1 {
+    font-size: 30px;
+    color: #004d00;
+}
+
+h2 {
+    font-size: 24px;
+    color: #004d00;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    color: darkgreen;
+    margin-bottom: 0px;
+}
+
+p,
+li {
+    margin: 0;
+    color: #666;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.job {
+    margin-bottom: 10px;
+}
+
+.job-description {
+    margin-left: 0px;
+}
+
+.job-description ul {
+    list-style-type: none;
+}
+
+.job-description li {
+    margin-bottom: 5px;
+}
+
+.job-description li::before {
+    content: '>';
+    color: darkgreen;
+    margin-right: 10px;
+}
+
+a {
+    color: darkgreen;
+}
+
+img {
+    height: 30px;
+}
